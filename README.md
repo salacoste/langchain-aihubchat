@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AIHubChat
 
-## Getting Started
+AIHubChat is a versatile AI chat assistant that serves as a central hub for interacting with various AI models from different providers, including OpenAI and Anthropic's Claude. Built with Next.js, TypeScript, and LangChain, this application offers a user-friendly interface for engaging with state-of-the-art language models.
 
-First, run the development server:
+![AIHubChat Screenshot](screenshot.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Support for multiple AI providers (OpenAI and Claude)
+- Easy switching between different AI models
+- In-app management of API keys for different providers
+- Persistent chat history
+- Dark mode support
+- File attachment capability (up to 10MB)
+- Responsive design for desktop and mobile use
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clone the repository:
+   ```
+   git clone https://github.com/salacoste/AIHubChat.git
+   ```
 
-## Learn More
+2. Navigate to the project directory:
+   ```
+   cd AIHubChat
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. Install dependencies:
+   ```
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Run the development server:
+   ```
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-## Deploy on Vercel
+## Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Select an AI provider from the dropdown menu in the settings panel.
+2. Enter your API key for the selected provider in the provided field.
+   - Note: Your API keys are managed securely within the application and are not stored in any configuration files.
+3. Choose a specific AI model from the available options.
+4. Type your message in the chat input and press "Send" or hit Enter.
+5. To attach a file, click on "Choose File" and select a file up to 10MB in size.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Security Note
+
+API keys are managed within the application interface and are stored locally in your browser. Always ensure you're using AIHubChat on a secure device and never share your API keys with others.
+
+## Contributing
+
+We welcome contributions to AIHubChat! Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature-name`.
+3. Make your changes and commit them: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature/your-feature-name`.
+5. Submit a pull request.
+
+Please ensure your code adheres to the existing style and that all tests pass.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [Next.js](https://nextjs.org/)
+- [LangChain](https://js.langchain.com/)
+- [OpenAI](https://openai.com/)
+- [Anthropic](https://www.anthropic.com/)
+
+## Contact
+
+If you have any questions or feedback, please open an issue on this repository or contact the maintainers directly.
+
+---
+
+Happy chatting with AI!
