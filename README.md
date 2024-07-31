@@ -38,6 +38,32 @@ AIHubChat is a versatile AI chat assistant that serves as a central hub for inte
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
+
+## Docker Deployment
+
+To deploy AIHubChat using Docker:
+
+1. Ensure you have Docker and Docker Compose installed on your system.
+
+2. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/AIHubChat.git
+   cd AIHubChat
+   ```
+
+3. Build and run the Docker container:
+   ```
+   docker-compose up -d
+   ```
+
+4. The application will be available at http://localhost:3000 (or your server's address).
+
+To stop the application:
+```
+docker-compose down
+```
+
+
 ## Usage
 
 1. Select an AI provider from the dropdown menu in the settings panel.
