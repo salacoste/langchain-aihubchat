@@ -2,7 +2,7 @@
 
 AIHubChat is a versatile AI chat assistant that serves as a central hub for interacting with various AI models from different providers, including OpenAI and Anthropic's Claude. Built with Next.js, TypeScript, and LangChain, this application offers a user-friendly interface for engaging with state-of-the-art language models.
 
-![AIHubChat Screenshot](screenshot.png)
+![AIHubChat Screenshot](screenshots/aihubchat_demo.png)
 
 ## Features
 
